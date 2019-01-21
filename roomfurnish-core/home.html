@@ -1,0 +1,618 @@
+<section id="home" class="home-page-content page-content">
+	<!--START: home_carousel-->
+    <section class="homepage-slider">
+        
+        <div class="homeCarousel flexslider" data-animation="[hc_effect]" data-slideshowspeed="[hc_delay]">
+            <script>
+                    //Slide JSON format
+                    /*
+                    {
+                        "background_color": "#eceded",
+                        "background_image": "/assets/templates/diamond-rose-core-premium/images/content/slider-bg.jpg",
+                        "button_link": "https://www.3dcart.com/",
+                        "button_text": "Shop now",
+                        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare mi volutpat, finibus quam vitae, porta purus. Fusce vestibulum enim quis efficitur pretium.",
+                        "heading": "<small>2017</small> SPRING <span>Collection</span>",
+                        "text_color": "#000000"
+                    }
+                    */
+
+                    var slides = '[';
+                    //<!--START: carousel-->
+                    slides += '[image],'
+                    //<!--END: carousel-->
+
+                    //remove last comma (,)
+                    slides = slides.substring(0, slides.length - 1);
+
+                    slides = slides + ']';
+            </script>
+
+            <div id="hp-slide-format" class="hidden">
+                <div class="container">
+                    <div class="row hp-slide-content">
+                        <div>
+                            <div class="hp-slider-text-outer">
+                                <div class="hp-slider-text tc-animate-me" data-animation="fadeInUp">
+                                    <h3></h3>
+                                    <p></p>
+                                    <div class="hp-slider-cta">
+                                        <a href="" class="btn btn-primary"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul id="hp-slides" class="slides"></ul>
+        </div>
+    </section>
+    <!--END: home_carousel-->
+	
+	
+	<section class="cat-body text-center">
+        <div class="container">
+			<div class="col-md-2 col-sm-4 col-xs-6 tc-animate-me" data-animation="fadeInUp">
+				<a href="#">
+                    <div class="banner-options-holder">
+					   <img src="assets/templates/[template]/images/icons/icon1.png" alt="Categories">
+                    </div>
+					<h3>BED ROOM</h3>
+				</a>
+			</div>
+			
+			<div class="col-md-2 col-sm-4 col-xs-6 tc-animate-me" data-animation="fadeInUp">
+				<a href="#">
+                    <div class="banner-options-holder">
+					   <img src="assets/templates/[template]/images/icons/icon2.png" alt="Categories">
+                    </div>
+					<h3>LIVING ROOM</h3>
+				</a>
+			</div>
+			
+			<div class="col-md-2 col-sm-4 col-xs-6 tc-animate-me" data-animation="fadeInUp">
+				<a href="#">
+                    <div class="banner-options-holder">
+					   <img src="assets/templates/[template]/images/icons/icon3.png" alt="Categories">
+                    </div>
+					<h3>DINING ROOM</h3>
+				</a>
+			</div>
+			
+			<div class="col-md-2 col-sm-4 col-xs-6 tc-animate-me" data-animation="fadeInUp">
+				<a href="#">
+                    <div class="banner-options-holder">
+					   <img src="assets/templates/[template]/images/icons/icon4.png" alt="Categories">
+                    </div>
+					<h3>SOFA</h3>
+				</a>
+			</div>
+			
+			<div class="col-md-2 col-sm-4 col-xs-6 tc-animate-me" data-animation="fadeInUp">
+				<a href="#">
+                    <div class="banner-options-holder">
+					   <img src="assets/templates/[template]/images/icons/icon5.png" alt="Categories">
+                    </div>
+					<h3>CHAIR</h3>
+				</a>
+			</div>
+			
+			<div class="col-md-2 col-sm-4 col-xs-6 tc-animate-me" data-animation="fadeInUp">
+				<a href="#">
+                    <div class="banner-options-holder">
+					   <img src="assets/templates/[template]/images/icons/icon6.png" alt="Categories">
+                    </div>
+					<h3>ARMCHAIR</h3>
+				</a>
+			</div>
+		</div>
+    </section>
+	
+	<!--START: FEATURE_MENU-->
+    <section class="products-section">
+		<div class="container">
+            <h2 class="header-specials">[category_Header-specials]</h2>
+			
+			<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+
+            <!--START: CATEGORY_ITEMS-->
+            <div class="product-items product-items-[product-cols-number] tc-animate-me" data-animation="fadeInUp">
+               <div id="carousel-sellers" class="carousel slide">
+                <!--START: ITEM_TEMPLATE_0-->
+                [product_items]
+                <!--END: ITEM_TEMPLATE_0-->
+            	</div>
+            </div>
+            <!--END: CATEGORY_ITEMS-->
+        </div>    
+    </section>
+	<!--END: FEATURE_MENU-->
+	
+	
+	<section class="info-banner">
+		<div class="container">
+			<div class="col-sm-4 col-xs-12">
+				<a href="#">
+					<div class="banner-img">
+						<img src="assets/templates/[template]/images/icons/banner-icon1.png">
+					</div>
+					<div class="banner-text">
+						<h3>FREE SHIPPING & RETURN</h3>
+						<p>Free shipping on all orders over $99.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<a href="#">
+					<div class="banner-img">
+						<img src="assets/templates/[template]/images/icons/banner-icon2.png">
+					</div>
+					<div class="banner-text">
+						<h3>MONEY BACK GUARANTEE</h3>
+						<p>100% money back guarantee</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<a href="#">
+					<div class="banner-img">
+						<img src="assets/templates/[template]/images/icons/banner-icon3.png">
+					</div>
+					<div class="banner-text">
+						<h3>ONLINE SUPPORT 24/7</h3>
+						<p>ONLINE SUPPORT AVAILABLE 24/7</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section><!--.info-banner ends-->
+	
+	<section class="banner-section">
+		<div class="container">
+			<div class="col-md-8 banner-holder left-banner">
+				<div class="col-md-6">
+					<a href="#" class="tc-animate-me" data-animation="fadeInUp">
+						<img src="assets/templates/[template]/images/banner-bg1.jpg" alt="#">
+						<div class="cat-banner-info">
+							<h3>MEN WATCH COLLECTIONS</h3>
+							<p>START FROM $25</p>
+							<span class="shop-btn">SHOP NOW</span>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-6">
+					<a href="#" class="tc-animate-me" data-animation="fadeInUp">
+						<img src="assets/templates/[template]/images/banner-bg2.jpg" alt="#">
+						<div class="cat-banner-info">
+							<h3>MEN WATCH COLLECTIONS</h3>
+							<p>START FROM $25</p>
+							<span class="shop-btn">SHOP NOW</span>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-12">
+					<a href="#" class="tc-animate-me" data-animation="fadeInRight">
+						<img src="assets/templates/[template]/images/banner-bg3.jpg" alt="#">
+						<div class="cat-banner-info">
+							<h3>MEN WATCH COLLECTIONS</h3>
+							<p>START FROM $25</p>
+							<span class="shop-btn">SHOP NOW</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="col-md-4 banner-holder right-banner">
+				<a href="#" class="tc-animate-me" data-animation="fadeInLeft">
+					<img src="assets/templates/[template]/images/banner-bg4.jpg" alt="#">
+					<div class="cat-banner-info">
+						<h3>WOMEN WATCH COLLECTIONS</h3>
+						<p>START FROM $25</p>
+						<span class="shop-btn">SHOP NOW</span>
+					</div>
+				</a>
+			</div>
+			
+		</div>
+	</section><!--.info-banner ends-->
+
+    <!--START: CATEGORY_HEADER-->
+    <section class="category-header">
+        <div class="container">[CONTENT]</div>
+    </section>
+    <!--END: CATEGORY_HEADER-->
+	
+	<section class="blog-section">
+        <div class="container">
+			<h2 class="header-specials">Latest From Blog</h2>
+			<p class="text-center">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+			</p>
+			
+			<div class="col-sm-6 col-xs-12 blog-article tc-animate-me" data-animation="fadeInUp">
+				<a href="#">
+					<div class="blog-img">
+						<div class="blog-date">
+							16 Dec
+						</div>
+						<img src="assets/templates/[template]/images/blog-img1.jpg">
+					</div>
+					<div class="blog-title">
+						Lorem ipsum dolor sit consectetur adipiscing elit,
+					</div>
+				</a>
+			</div>
+			
+			<div class="col-sm-6 col-xs-12 blog-article tc-animate-me" data-animation="fadeInUp">
+				<a href="#">
+					<div class="blog-img">
+						<div class="blog-date">
+							16 Dec
+						</div>
+						<img src="assets/templates/[template]/images/blog-img2.jpg">
+					</div>
+					<div class="blog-title">
+						Lorem ipsum dolor sit consectetur adipiscing elit,
+					</div>
+				</a>
+			</div>
+
+		</div>
+    </section>
+
+    <!--START: CATEGORY_FOOTER-->
+    <section class="category-footer">
+    	<div class="container">[CONTENT]</div>
+    </section>
+    <!--END: CATEGORY_FOOTER-->
+
+</section>
+
+<!--START: template_scripts-->
+<script type="text/javascript" src="/assets/templates/common-core/lib/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    jQuery(function () {
+        jQuery('.homeCarousel').flexslider({
+            animation: jQuery('.homeCarousel').attr('data-animation'),
+			slideshow: true,
+            slideshowSpeed: jQuery('.homeCarousel').attr('data-slideshowspeed'),
+            controlNav: true,
+            keyboard: false
+        });
+    });
+</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    jQuery(function () {
+        jQuery('#carousel-sellers').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+              {
+                  breakpoint: 1024,
+                  settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 3
+                  }
+              },
+              {
+                  breakpoint: 767,
+//                  settings: "unslick"
+                  settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2
+                  }
+              },
+              {
+                  breakpoint: 600,
+//                  settings: "unslick"
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                  }
+              }
+            ]
+        });
+		
+        var carouselWidth = $('#carousel-sellers').width();
+        var carouselPad = 15 + 'px';
+		
+        $('.product-item.slick-slide').css('max-width', carouselWidth);
+        $('.product-item.slick-slide').css('padding-left', carouselPad);
+        $('.product-item.slick-slide').css('padding-right', carouselPad);
+		
+	});
+</script>
+<script type="text/javascript" charset="utf-8">
+    jQuery(function () {
+
+        var slidesJson = jQuery.parseJSON(slides);
+        jQuery(slidesJson).each(function (i, element) {
+            var slideItem = jQuery('<li><div class="tint"></div></li>');
+            var slideFormat = jQuery('#hp-slide-format > div').clone();
+
+            jQuery(slideItem).css('background-image', 'url(' + element.background_image + ')');
+            jQuery(slideItem).css('background-color', element.background_color);
+            jQuery(slideFormat).find('.hp-slider-text').css('color', element.text_color);
+
+            jQuery(slideFormat).find('.hp-slider-text h3').html(element.heading);
+            jQuery(slideFormat).find('.hp-slider-text p').html(element.details);
+            jQuery(slideFormat).find('.hp-slider-cta a').attr('href', element.button_link);
+            jQuery(slideFormat).find('.hp-slider-cta a').html(element.button_text);
+            //jQuery(slideFormat).find('.hp-slider-img').append('<img src=' + element.front_image + ' alt="" />');
+    
+            jQuery(slideItem).append(slideFormat);
+
+            jQuery('#hp-slides').append(slideItem);
+        });
+
+        var $window = jQuery(window),
+        flexslider = { vars: {} };
+
+        // tiny helper function to add breakpoints
+        function getGridSize() {
+            return (window.innerWidth <= 567) ? 1 :
+                   (window.innerWidth < 992) ? 2 : 4;
+        }
+
+        $window.on("load", function () {
+            jQuery('.hp-brands-flexslider').flexslider({
+                animation: "slide",
+                controlNav: false,
+                keyboard: false,
+                itemWidth: 210,
+                itemMargin: 0,
+                minItems: getGridSize(), // use function to pull in initial value
+                maxItems: getGridSize() // use function to pull in initial value
+            });
+
+            setTimeout(function () {
+                window.dispatchEvent(new Event('resize'));
+            }, 100);
+        });
+    });
+</script>
+<!--END: template_scripts-->
+
+<!--START: template_styles-->
+<link rel="stylesheet" href="/assets/templates/common-core/lib/flexslider/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<style>
+    .TSnav {
+        position: relative;
+        height: 50px;
+    }
+	.slick-list {
+		margin: 0 35px;
+	}
+    /* Arrows */
+    .slick-prev,
+    .slick-next
+    {
+        font-size: 0;
+        line-height: 0;
+
+        position: absolute;
+		z-index: 1;
+        top: 25%;
+
+        display: block;
+
+        width: 25px;
+        height: 40px;
+        padding: 0;
+        cursor: pointer;
+
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    .slick-prev:hover,
+    .slick-prev:focus,
+    .slick-next:hover,
+    .slick-next:focus
+    {
+        color: transparent;
+        outline: none;
+        background: transparent;
+    }
+    .slick-prev:hover:before,
+    .slick-prev:focus:before,
+    .slick-next:hover:before,
+    .slick-next:focus:before
+    {
+        opacity: 1;
+    }
+    .slick-prev.slick-disabled:before,
+    .slick-next.slick-disabled:before
+    {
+        opacity: .25;
+    }
+
+    .slick-prev:before,
+    .slick-next:before
+    {
+        font-family: "fontello";
+        font-size: 40px;
+        line-height: 1;
+
+        opacity: .75;
+        color: #000;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .slick-prev
+    {
+        left: 5px;
+    }
+    [dir='rtl'] .slick-prev
+    {
+        right: 5px;
+        left: auto;
+    }
+    .slick-prev:before
+    {
+        content: '\f104';
+    }
+    [dir='rtl'] .slick-prev:before
+    {
+        content: '\f105';
+    }
+
+    .slick-next
+    {
+        right: 5px;
+    }
+    [dir='rtl'] .slick-next
+    {
+        right: auto;
+        left: 5px;
+    }
+    .slick-next:before
+    {
+        content: '\f105';
+    }
+    [dir='rtl'] .slick-next:before
+    {
+        content: '\f104';
+    }
+	#carousel-sellers2 .slick-prev, #carousel-sellers2 .slick-next{
+		top: 10%;
+	}
+    @media(min-width: 1200px) {
+        .slick-prev,
+        .slick-next
+        {
+            top: 30%;
+            width: 35px;
+            height: 50px;
+        }
+        .slick-prev:before,
+        .slick-next:before
+        {
+            font-size: 75px;
+        }
+
+        .slick-prev
+        {
+            left: 5px;
+        }
+        [dir='rtl'] .slick-prev
+        {
+            right: 5px;
+            left: auto;
+        }
+
+        .slick-next
+        {
+            right: 5px;
+        }
+        [dir='rtl'] .slick-next
+        {
+            right: auto;
+            left: 5px;
+        }
+    }
+    /* Dots */
+    .slick-dotted.slick-slider
+    {
+    }
+
+    .slick-dots
+    {
+        position: absolute;
+        bottom: 100%;
+
+        display: block;
+
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        list-style: none;
+
+        text-align: center;
+    }
+    .slick-dots li
+    {
+        position: relative;
+
+        display: inline-block;
+
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+
+        cursor: pointer;
+    }
+    .slick-dots li button
+    {
+        font-size: 0;
+        line-height: 0;
+
+        display: block;
+
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+
+        cursor: pointer;
+
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+    .slick-dots li button:hover,
+    .slick-dots li button:focus
+    {
+        outline: none;
+    }
+    .slick-dots li button:hover:before,
+    .slick-dots li button:focus:before
+    {
+        opacity: 1;
+    }
+    .slick-dots li button:before
+    {
+        font-family: 'slick';
+        font-size: 20px;
+        line-height: 20px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 20px;
+        height: 20px;
+
+        content: '•';
+        text-align: center;
+
+        opacity: .25;
+        color: black;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-dots li.slick-active button:before
+    {
+        opacity: .75;
+        color: black;
+    }
+	.product-item.slick-slide {
+		float: left !important;
+	}
+</style>
+<!--END: template_styles-->
