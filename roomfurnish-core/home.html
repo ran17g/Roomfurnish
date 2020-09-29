@@ -4,28 +4,48 @@
         
         <div class="homeCarousel flexslider" data-animation="[hc_effect]" data-slideshowspeed="[hc_delay]">
             <script>
-                    //Slide JSON format
+                     //Slide JSON format
                     /*
-                    {
-                        "background_color": "#eceded",
-                        "background_image": "/assets/templates/diamond-rose-core-premium/images/content/slider-bg.jpg",
-                        "button_link": "https://www.3dcart.com/",
-                        "button_text": "Shop now",
-                        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare mi volutpat, finibus quam vitae, porta purus. Fusce vestibulum enim quis efficitur pretium.",
-                        "heading": "<small>2017</small> SPRING <span>Collection</span>",
-                        "text_color": "#000000"
-                    }
+					{                         
+						"background_image": "/assets/templates/autostyle-core/images/slider.jpg",
+						"button_link": "#",
+						"button_text": "Shop now",
+						"details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc magna, malesuada a mauris sit amet, tempor tempus neque. Ut consectetur orci a luctus porttitor. Cras sagittis dui augue,at elementum massa rutrum at. Nullam a magna in nibh feugiat porttitor.Duis at lectus neque. Aenean viverra viverra magna, sit amet condimentum tellus suscipit quis. ",
+						"front_image": "#",
+						"heading": "Proformance Advanced Autoparts"
+					}
                     */
 
                     var slides = '[';
                     //<!--START: carousel-->
-                    slides += '[image],'
-                    //<!--END: carousel-->
+	
+					var imgVal = '[image]';
+					
+					var checkVal = check(imgVal);
 
+					if(checkVal == true){
+						slides += '[image],';
+						console.log('Correct Json Format');
+					}else{
+						console.log('Incorrect Json Format');
+					}
+				
+                    //<!--END: carousel-->
                     //remove last comma (,)
                     slides = slides.substring(0, slides.length - 1);
-
                     slides = slides + ']';
+				
+				function check(imgVals){
+					
+					var specialChars = "{}";
+					
+					for(i = 0; i < specialChars.length;i++){
+						if(imgVals.indexOf(specialChars[i]) > -1){
+							return true;
+						}
+					}
+					return false;
+				}
             </script>
 
             <div id="hp-slide-format" class="hidden">
@@ -301,20 +321,36 @@
 <script type="text/javascript" src="/assets/templates/common-core/lib/flexslider/jquery.flexslider-min.js"></script>
 <script type="text/javascript" charset="utf-8">
     jQuery(function () {
-
+		
         var slidesJson = jQuery.parseJSON(slides);
+		
         jQuery(slidesJson).each(function (i, element) {
-            var slideItem = jQuery('<li><div class="tint"></div></li>');
+            var slideItem = jQuery("<li></li>");
             var slideFormat = jQuery('#hp-slide-format > div').clone();
 
-            jQuery(slideItem).css('background-image', 'url(' + element.background_image + ')');
-            jQuery(slideItem).css('background-color', element.background_color);
-            jQuery(slideFormat).find('.hp-slider-text').css('color', element.text_color);
-
-            jQuery(slideFormat).find('.hp-slider-text h3').html(element.heading);
-            jQuery(slideFormat).find('.hp-slider-text p').html(element.details);
-            jQuery(slideFormat).find('.hp-slider-cta a').attr('href', element.button_link);
-            jQuery(slideFormat).find('.hp-slider-cta a').html(element.button_text);
+			if(element.background_image){
+				jQuery(slideItem).css('background-image', 'url('+element.background_image+')');
+			}
+			
+			if(element.heading){
+				jQuery(slideFormat).find('.hp-slider-text h3').html(element.heading);
+			}
+			
+			if(element.details){
+				jQuery(slideFormat).find('.hp-slider-text p').html(element.details);
+			}
+			
+			if(element.button_link){
+				jQuery(slideFormat).find('.hp-slider-cta a').attr('href', element.button_link);
+			}
+			
+			if(element.button_text){
+				jQuery(slideFormat).find('.hp-slider-cta a').html(element.button_text);
+			}
+			
+			
+        
+            
             //jQuery(slideFormat).find('.hp-slider-img').append('<img src=' + element.front_image + ' alt="" />');
     
             jQuery(slideItem).append(slideFormat);
@@ -323,7 +359,7 @@
         });
 
         var $window = jQuery(window),
-        flexslider = { vars: {} };
+		flexslider = { vars: {} };
 
         // tiny helper function to add breakpoints
         function getGridSize() {
