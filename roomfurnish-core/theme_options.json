@@ -1,1 +1,981 @@
-{"theme_name":"Veniam Core","selected_preset":5,"field_groups":[{"name":"Header"},{"name":"Text & Buttons"},{"name":"Typography"},{"name":"Products"},{"name":"Footer"}],"theme_presets":[{"isCustom":0,"name":"Default","fields":[{"label":"Navigation color","name":"nav_color","type":2,"value":"000000","group":0},{"label":"Navigation text color","name":"nav_text_color","type":2,"value":"ffffff","group":0},{"label":"Headings color","name":"headings_color","type":2,"value":"000000","group":1},{"label":"Body text color","name":"body_text_color","type":2,"value":"000000","group":1},{"label":"Primary button color","name":"btn_color","type":2,"value":"000000","group":1},{"label":"Primary button border","name":"btn_border","type":2,"value":"000000","group":1},{"label":"Primary button text color","name":"btn_text_color","type":2,"value":"FFFFFF","group":1},{"label":"Secondary button color","name":"btn2_color","type":2,"value":"FFFFFF","group":1},{"label":"Secondary button border","name":"btn2_border","type":2,"value":"000000","group":1},{"label":"Secondary button text color","name":"btn2_text_color","type":2,"value":"000000","group":1},{"label":"Base font size","name":"base_font_size","type":3,"value":"14","options":[{"text":"14px","value":14},{"text":"15px","value":15},{"text":"16px","value":16},{"text":"17px","value":17},{"text":"18px","value":18}],"group":2},{"label":"Heading base size","name":"heading_base_size","type":3,"value":"14","options":[{"text":"24px","value":24},{"text":"25px","value":25},{"text":"26px","value":26},{"text":"27px","value":27},{"text":"28px","value":28},{"text":"29px","value":29},{"text":"30px","value":30},{"text":"31px","value":31},{"text":"32px","value":32}],"group":2},{"label":"Sale text","name":"sale_text","type":2,"value":"d04b64","group":3},{"label":"Rating Stars color","name":"stars_color","type":2,"value":"000000","group":3},{"label":"Footer color","name":"footer_color","type":2,"value":"0f0f0f","group":4},{"label":"Footer text color","name":"footer_text_color","type":2,"value":"cccccc","group":4}]},{"isCustom":0,"name":"Experience Berkshire","fields":[{"label":"Navigation color","name":"nav_color","type":2,"value":"193441","group":0},{"label":"Navigation text color","name":"nav_text_color","type":2,"value":"D1DBBD","group":0},{"label":"Headings color","name":"headings_color","type":2,"value":"3E606F","group":1},{"label":"Body text color","name":"body_text_color","type":2,"value":"222222","group":1},{"label":"Primary button color","name":"btn_color","type":2,"value":"193441","group":1},{"label":"Primary button border","name":"btn_border","type":2,"value":"193441","group":1},{"label":"Primary button text color","name":"btn_text_color","type":2,"value":"D1DBBD","group":1},{"label":"Secondary button color","name":"btn2_color","type":2,"value":"91AA9D","group":1},{"label":"Secondary button border","name":"btn2_border","type":2,"value":"193441","group":1},{"label":"Secondary button text color","name":"btn2_text_color","type":2,"value":"193441","group":1},{"label":"Base font size","name":"base_font_size","type":3,"value":"14","options":[{"text":"14px","value":14},{"text":"15px","value":15},{"text":"16px","value":16},{"text":"17px","value":17},{"text":"18px","value":18}],"group":2},{"label":"Heading base size","name":"heading_base_size","type":3,"value":"30","options":[{"text":"24px","value":24},{"text":"25px","value":25},{"text":"26px","value":26},{"text":"27px","value":27},{"text":"28px","value":28},{"text":"29px","value":29},{"text":"30px","value":30},{"text":"31px","value":31},{"text":"32px","value":32}],"group":2},{"label":"Sale text","name":"sale_text","type":2,"value":"A788B2","group":3},{"label":"Rating Stars color","name":"stars_color","type":2,"value":"193441","group":3},{"label":"Footer color","name":"footer_color","type":2,"value":"193441","group":4},{"label":"Footer text color","name":"footer_text_color","type":2,"value":"FCFFF5","group":4}]},{"isCustom":0,"name":"Ulla","fields":[{"label":"Navigation color","name":"nav_color","type":2,"value":"E1244E","group":0},{"label":"Navigation text color","name":"nav_text_color","type":2,"value":"F1F1F1","group":0},{"label":"Headings color","name":"headings_color","type":2,"value":"717171","group":1},{"label":"Body text color","name":"body_text_color","type":2,"value":"0D0D0D","group":1},{"label":"Primary button color","name":"btn_color","type":2,"value":"E1244E","group":1},{"label":"Primary button border","name":"btn_border","type":2,"value":"E1244E","group":1},{"label":"Primary button text color","name":"btn_text_color","type":2,"value":"F1F1F1","group":1},{"label":"Secondary button color","name":"btn2_color","type":2,"value":"F1F1F1","group":1},{"label":"Secondary button border","name":"btn2_border","type":2,"value":"717171","group":1},{"label":"Secondary button text color","name":"btn2_text_color","type":2,"value":"717171","group":1},{"label":"Base font size","name":"base_font_size","type":3,"value":"14","options":[{"text":"14px","value":14},{"text":"15px","value":15},{"text":"16px","value":16},{"text":"17px","value":17},{"text":"18px","value":18}],"group":2},{"label":"Heading base size","name":"heading_base_size","type":3,"value":"30","options":[{"text":"24px","value":24},{"text":"25px","value":25},{"text":"26px","value":26},{"text":"27px","value":27},{"text":"28px","value":28},{"text":"29px","value":29},{"text":"30px","value":30},{"text":"31px","value":31},{"text":"32px","value":32}],"group":2},{"label":"Sale text","name":"sale_text","type":2,"value":"0D0D0D","group":3},{"label":"Rating Stars color","name":"stars_color","type":2,"value":"E1244E","group":3},{"label":"Footer color","name":"footer_color","type":2,"value":"0D0D0D","group":4},{"label":"Footer text color","name":"footer_text_color","type":2,"value":"F1F1F1","group":4}]},{"isCustom":0,"name":"March","fields":[{"label":"Navigation color","name":"nav_color","type":2,"value":"616161","group":0},{"label":"Navigation text color","name":"nav_text_color","type":2,"value":"D5FFE0","group":0},{"label":"Headings color","name":"headings_color","type":2,"value":"616161","group":1},{"label":"Body text color","name":"body_text_color","type":2,"value":"222222","group":1},{"label":"Primary button color","name":"btn_color","type":2,"value":"5EBF66","group":1},{"label":"Primary button border","name":"btn_border","type":2,"value":"5EBF66","group":1},{"label":"Primary button text color","name":"btn_text_color","type":2,"value":"D5FFE0","group":1},{"label":"Secondary button color","name":"btn2_color","type":2,"value":"D5FFE0","group":1},{"label":"Secondary button border","name":"btn2_border","type":2,"value":"616161","group":1},{"label":"Secondary button text color","name":"btn2_text_color","type":2,"value":"616161","group":1},{"label":"Base font size","name":"base_font_size","type":3,"value":"14","options":[{"text":"14px","value":14},{"text":"15px","value":15},{"text":"16px","value":16},{"text":"17px","value":17},{"text":"18px","value":18}],"group":2},{"label":"Heading base size","name":"heading_base_size","type":3,"value":"30","options":[{"text":"24px","value":24},{"text":"25px","value":25},{"text":"26px","value":26},{"text":"27px","value":27},{"text":"28px","value":28},{"text":"29px","value":29},{"text":"30px","value":30},{"text":"31px","value":31},{"text":"32px","value":32}],"group":2},{"label":"Sale text","name":"sale_text","type":2,"value":"168A35","group":3},{"label":"Rating Stars color","name":"stars_color","type":2,"value":"5EBF66","group":3},{"label":"Footer color","name":"footer_color","type":2,"value":"616161","group":4},{"label":"Footer text color","name":"footer_text_color","type":2,"value":"D5FFE0","group":4}]},{"isCustom":0,"name":"Cool Blues","fields":[{"label":"Navigation color","name":"nav_color","type":2,"value":"07575B","group":0},{"label":"Navigation text color","name":"nav_text_color","type":2,"value":"FFFFFF","group":0},{"label":"Headings color","name":"headings_color","type":2,"value":"003B46","group":1},{"label":"Body text color","name":"body_text_color","type":2,"value":"222222","group":1},{"label":"Primary button color","name":"btn_color","type":2,"value":"003B46","group":1},{"label":"Primary button border","name":"btn_border","type":2,"value":"003B46","group":1},{"label":"Primary button text color","name":"btn_text_color","type":2,"value":"FFFFFF","group":1},{"label":"Secondary button color","name":"btn2_color","type":2,"value":"66A5A5","group":1},{"label":"Secondary button text color","name":"btn2_text_color","type":2,"value":"07575B","group":1},{"label":"Base font size","name":"base_font_size","type":3,"value":"14","options":[{"text":"14px","value":14},{"text":"15px","value":15},{"text":"16px","value":16},{"text":"17px","value":17},{"text":"18px","value":18}],"group":2},{"label":"Heading base size","name":"heading_base_size","type":3,"value":"30","options":[{"text":"24px","value":24},{"text":"25px","value":25},{"text":"26px","value":26},{"text":"27px","value":27},{"text":"28px","value":28},{"text":"29px","value":29},{"text":"30px","value":30},{"text":"31px","value":31},{"text":"32px","value":32}],"group":2},{"label":"Sale text","name":"sale_text","type":2,"value":"003B46","group":3},{"label":"Rating Stars color","name":"stars_color","type":2,"value":"003B46","group":3},{"label":"Footer color","name":"footer_color","type":2,"value":"003B46","group":4},{"label":"Footer text color","name":"footer_text_color","type":2,"value":"FFFFFF","group":4}]},{"isCustom":1,"name":"Custom","fields":[{"label":"Navigation color","name":"nav_color","type":2,"value":"5B4B21","group":0},{"label":"Navigation text color","name":"nav_text_color","type":2,"value":"FFFFFF","group":0},{"label":"Headings color","name":"headings_color","type":2,"value":"003B46","group":1},{"label":"Body text color","name":"body_text_color","type":2,"value":"222222","group":1},{"label":"Primary button color","name":"btn_color","type":2,"value":"003B46","group":1},{"label":"Primary button border","name":"btn_border","type":2,"value":"003B46","group":1},{"label":"Primary button text color","name":"btn_text_color","type":2,"value":"FFFFFF","group":1},{"label":"Secondary button color","name":"btn2_color","type":2,"value":"66A5A5","group":1},{"label":"Secondary button border","name":"btn2_border","type":2,"value":"717171","group":1},{"label":"Secondary button text color","name":"btn2_text_color","type":2,"value":"717171","group":1},{"label":"Base font size","name":"base_font_size","type":3,"value":"","options":[{"text":"14px","value":14},{"text":"15px","value":15},{"text":"16px","value":16},{"text":"17px","value":17},{"text":"18px","value":18}],"group":2},{"label":"Heading base size","name":"heading_base_size","type":3,"value":"","options":[{"text":"24px","value":24},{"text":"25px","value":25},{"text":"26px","value":26},{"text":"27px","value":27},{"text":"28px","value":28},{"text":"29px","value":29},{"text":"30px","value":30},{"text":"31px","value":31},{"text":"32px","value":32}],"group":2},{"label":"Sale text","name":"sale_text","type":2,"value":"0D0D0D","group":3},{"label":"Rating Stars color","name":"stars_color","type":2,"value":"E1244E","group":3},{"label":"Footer color","name":"footer_color","type":2,"value":"07575B","group":4},{"label":"Footer text color","name":"footer_text_color","type":2,"value":"F1F1F1","group":4}]}]}
+{
+  "theme_name": "Roomfurnish Core",
+  "selected_preset": 0,
+  "field_groups": [
+	{
+	  "name": "Default Colors"
+	},
+    {
+      "name": "Default Buttons"
+	},
+    {
+      "name": "Header"
+	},
+	{
+      "name": "Navigation"
+	},
+    {
+      "name": "Slider"
+	},
+	{
+      "name": "Icons"
+	},
+	{
+      "name": "Products Lists"
+	},
+	{
+      "name": "Banners"
+	},
+    {
+      "name": "Sales Tag"
+	},
+	{
+	  "name": "Blog"
+	},
+    {
+      "name": "Footer"
+	}
+  ],
+  "theme_presets": [
+    {
+      "isCustom": 0,
+      "name": "Default",
+      "fields": [
+		{
+			"label": "Background Color",
+			"name": "gord_background_color",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 0
+		},
+		{
+			"label": "Theme Color",
+			"name": "gord_theme_color",
+			"type": 2,
+			"value": "5e4630",
+			"group": 0
+		},
+		{
+			"label": "Title Headings",
+			"name": "gord_title_headings",
+			"type": 2,
+			"value": "5e4630",
+			"group": 0
+		},
+		{
+			"label": "Body Text",
+			"name": "gord_body_text",
+			"type": 2,
+			"value": "000000",
+			"group": 0
+		},
+		{
+			"label": "Text Link",
+			"name": "gord_text_link",
+			"type": 2,
+			"value": "5e4630",
+			"group": 0
+		},
+		{
+			"label": "Text Link Hover",
+			"name": "gord_text_link_hover",
+			"type": 2,
+			"value": "337ab7",
+			"group": 0
+		},
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Text",
+			"name": "gord_btn_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 1
+		},
+		{
+			"label": "Text Hover",
+			"name": "gord_btn_text_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 1
+		},
+		{
+			"label": "Background",
+			"name": "gord_btn_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 1
+		},
+		{
+			"label": "Background Hover",
+			"name": "gord_btn_bg_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 1
+		},
+		{
+			"label": "Border",
+			"name": "gord_btn_border",
+			"type": 2,
+			"value": "5e4630",
+			"group": 1
+		},
+		{
+			"label": "Border Hover",
+			"name": "gord_btn_border_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 1
+		},
+		  
+		  
+		  
+		  
+		{
+			"label": "Background",
+			"name": "gord_header_bg",
+			"type": 2,
+			"value": "ffffff",
+			"group": 2
+		},
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Text",
+			"name": "gord_nav_text",
+			"type": 2,
+			"value": "5E4630",
+			"group": 3
+		},
+		{
+			"label": "Text Hover",
+			"name": "gord_nav_text_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 3
+		},
+		{
+			"label": "Background",
+			"name": "gord_nav_bg",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 3
+		},
+		{
+			"label": "Background Hover",
+			"name": "gord_nav_bg_hover",
+			"type": 2,
+			"value": "5E4630",
+			"group": 3
+		},
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Title",
+			"name": "gord_slider_title",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 4
+		},
+		{
+			"label": "Text",
+			"name": "gord_slider_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 4
+		},
+		{
+			"label": "Button Text",
+			"name": "gord_slider_btn_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 4
+		},
+		{
+			"label": "Button Text Hover",
+			"name": "gord_slider_btn_text_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 4
+		},
+		{
+			"label": "Button Border",
+			"name": "gord_slider_border",
+			"type": 2,
+			"value": "5e4630",
+			"group": 4
+		},
+		{
+			"label": "Button Border Hover",
+			"name": "gord_slider_border_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 4
+		},
+		{
+			"label": "Button Background",
+			"name": "gord_slider_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 4
+		},
+		{
+			"label": "Button Background Hover",
+			"name": "gord_slider_bg_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 4
+		},
+		  
+		  
+		{
+			"label": "Icon",
+			"name": "gord_icon",
+			"type": 2,
+			"value": "5e4630",
+			"group": 5
+		},
+		{
+			"label": "Icon Hover",
+			"name": "gord_icon_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 5
+		},
+		{
+			"label": "Icon Background Hover",
+			"name": "gord_icon_bg_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 5
+		},
+		{
+			"label": "Background",
+			"name": "gord_icon_bg",
+			"type": 2,
+			"value": "f0f0f0",
+			"group": 5
+		},
+		  
+		  
+		  
+		
+		
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Product Name",
+			"name": "gord_bloglist_product_name",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Product Name Hover",
+			"name": "gord_bloglist_product_name_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Stars",
+			"name": "gord_stars",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Text",
+			"name": "gord_bloglist_text",
+			"type": 2,
+			"value": "000000",
+			"group": 6
+		},
+		{
+			"label": "Button Text",
+			"name": "gord_bloglist_atc_btn",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 6
+		},
+		{
+			"label": "Button Text Hover",
+			"name": "gord_bloglist_atc_btn_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Button Border",
+			"name": "gord_bloglist_atc_border",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Button Border Hover",
+			"name": "gord_bloglist_atc_border_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Button Background",
+			"name": "gord_bloglist_atc_btn_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Button Background Hover",
+			"name": "gord_bloglist_atc_btn_bg_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 6
+		},
+		  
+		  
+		  
+		  
+		{
+			"label": "Banner Text",
+			"name": "gord_banner_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 7
+		},
+		{
+			"label": "Banner Text hover",
+			"name": "gord_banner_text_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 7
+		},
+		{
+			"label": "Button Text",
+			"name": "gord_banner_text_btn",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 7
+		},
+		{
+			"label": "Button Text Hover",
+			"name": "gord_banner_text_btn_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 7
+		},
+		{
+			"label": "Button Border",
+			"name": "gord_banner_text_btn_border",
+			"type": 2,
+			"value": "5e4630",
+			"group": 7
+		},
+		{
+			"label": "Button Border Hover",
+			"name": "gord_banner_text_btn_border_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 7
+		},
+		{
+			"label": "Button Background",
+			"name": "gord_banner_text_btn_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 7
+		},
+		{
+			"label": "Button Background Hover",
+			"name": "gord_banner_text_btn_bg_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 7
+		},
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Text",
+			"name": "gord_saletag_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 8
+		},
+		{
+			"label": "Background Color",
+			"name": "gord_saletag_bg_color",
+			"type": 2,
+			"value": "5e4630",
+			"group": 8
+		},
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Date text",
+			"name": "gord_date_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 9
+		},
+		{
+			"label": "Date Background",
+			"name": "gord_date_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 9
+		},
+		
+		  
+		  
+		
+		  
+		  
+		{
+			"label": "Text",
+			"name": "gord_footer_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 10
+		},
+		{
+			"label": "Header Text",
+			"name": "gord_footer_header_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 10
+		},
+		{
+			"label": "Link",
+			"name": "gord_footer_link",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 10
+		},
+		{
+			"label": "Link Hover",
+			"name": "gord_footer_link_hover",
+			"type": 2,
+			"value": "2119FF",
+			"group": 10
+		},
+		{
+			"label": "Background",
+			"name": "gord_footer_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 10
+		},
+		{
+			"label": "Copyright Background",
+			"name": "gord_footer_copyright_bg",
+			"type": 2,
+			"value": "333333",
+			"group": 10
+		}
+		  
+		
+	
+		
+		  
+      ]
+    },
+   
+    {
+      "isCustom": 1,
+      "name": "Custom",
+      "fields": [
+		{
+			"label": "Background Color",
+			"name": "gord_background_color",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 0
+		},
+		{
+			"label": "Theme Color",
+			"name": "gord_theme_color",
+			"type": 2,
+			"value": "5e4630",
+			"group": 0
+		},
+		{
+			"label": "Title Headings",
+			"name": "gord_title_headings",
+			"type": 2,
+			"value": "5e4630",
+			"group": 0
+		},
+		{
+			"label": "Body Text",
+			"name": "gord_body_text",
+			"type": 2,
+			"value": "000000",
+			"group": 0
+		},
+		{
+			"label": "Text Link",
+			"name": "gord_text_link",
+			"type": 2,
+			"value": "5e4630",
+			"group": 0
+		},
+		{
+			"label": "Text Link Hover",
+			"name": "gord_text_link_hover",
+			"type": 2,
+			"value": "337ab7",
+			"group": 0
+		},
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Text",
+			"name": "gord_btn_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 1
+		},
+		{
+			"label": "Text Hover",
+			"name": "gord_btn_text_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 1
+		},
+		{
+			"label": "Background",
+			"name": "gord_btn_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 1
+		},
+		{
+			"label": "Background Hover",
+			"name": "gord_btn_bg_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 1
+		},
+		{
+			"label": "Border",
+			"name": "gord_btn_border",
+			"type": 2,
+			"value": "5e4630",
+			"group": 1
+		},
+		{
+			"label": "Border Hover",
+			"name": "gord_btn_border_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 1
+		},
+		  
+		  
+		  
+		  
+		{
+			"label": "Background",
+			"name": "gord_header_bg",
+			"type": 2,
+			"value": "ffffff",
+			"group": 2
+		},
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Text",
+			"name": "gord_nav_text",
+			"type": 2,
+			"value": "5E4630",
+			"group": 3
+		},
+		{
+			"label": "Text Hover",
+			"name": "gord_nav_text_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 3
+		},
+		{
+			"label": "Background",
+			"name": "gord_nav_bg",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 3
+		},
+		{
+			"label": "Background Hover",
+			"name": "gord_nav_bg_hover",
+			"type": 2,
+			"value": "5E4630",
+			"group": 3
+		},
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Title",
+			"name": "gord_slider_title",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 4
+		},
+		{
+			"label": "Text",
+			"name": "gord_slider_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 4
+		},
+		{
+			"label": "Button Text",
+			"name": "gord_slider_btn_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 4
+		},
+		{
+			"label": "Button Text Hover",
+			"name": "gord_slider_btn_text_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 4
+		},
+		{
+			"label": "Button Border",
+			"name": "gord_slider_border",
+			"type": 2,
+			"value": "5e4630",
+			"group": 4
+		},
+		{
+			"label": "Button Border Hover",
+			"name": "gord_slider_border_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 4
+		},
+		{
+			"label": "Button Background",
+			"name": "gord_slider_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 4
+		},
+		{
+			"label": "Button Background Hover",
+			"name": "gord_slider_bg_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 4
+		},
+		  
+		  
+		{
+			"label": "Icon",
+			"name": "gord_icon",
+			"type": 2,
+			"value": "5e4630",
+			"group": 5
+		},
+		{
+			"label": "Icon Hover",
+			"name": "gord_icon_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 5
+		},
+		{
+			"label": "Icon Background Hover",
+			"name": "gord_icon_bg_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 5
+		},
+		{
+			"label": "Background",
+			"name": "gord_icon_bg",
+			"type": 2,
+			"value": "f0f0f0",
+			"group": 5
+		},
+		  
+		  
+		  
+		
+		
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Product Name",
+			"name": "gord_bloglist_product_name",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Product Name Hover",
+			"name": "gord_bloglist_product_name_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Stars",
+			"name": "gord_stars",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Text",
+			"name": "gord_bloglist_text",
+			"type": 2,
+			"value": "000000",
+			"group": 6
+		},
+		{
+			"label": "Button Text",
+			"name": "gord_bloglist_atc_btn",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 6
+		},
+		{
+			"label": "Button Text Hover",
+			"name": "gord_bloglist_atc_btn_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Button Border",
+			"name": "gord_bloglist_atc_border",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Button Border Hover",
+			"name": "gord_bloglist_atc_border_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Button Background",
+			"name": "gord_bloglist_atc_btn_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 6
+		},
+		{
+			"label": "Button Background Hover",
+			"name": "gord_bloglist_atc_btn_bg_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 6
+		},
+		  
+		  
+		  
+		  
+		{
+			"label": "Banner Text",
+			"name": "gord_banner_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 7
+		},
+		{
+			"label": "Banner Text hover",
+			"name": "gord_banner_text_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 7
+		},
+		{
+			"label": "Button Text",
+			"name": "gord_banner_text_btn",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 7
+		},
+		{
+			"label": "Button Text Hover",
+			"name": "gord_banner_text_btn_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 7
+		},
+		{
+			"label": "Button Border",
+			"name": "gord_banner_text_btn_border",
+			"type": 2,
+			"value": "5e4630",
+			"group": 7
+		},
+		{
+			"label": "Button Border Hover",
+			"name": "gord_banner_text_btn_border_hover",
+			"type": 2,
+			"value": "5e4630",
+			"group": 7
+		},
+		{
+			"label": "Button Background",
+			"name": "gord_banner_text_btn_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 7
+		},
+		{
+			"label": "Button Background Hover",
+			"name": "gord_banner_text_btn_bg_hover",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 7
+		},
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Text",
+			"name": "gord_saletag_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 8
+		},
+		{
+			"label": "Background Color",
+			"name": "gord_saletag_bg_color",
+			"type": 2,
+			"value": "5e4630",
+			"group": 8
+		},
+		  
+		  
+		  
+		  
+		  
+		{
+			"label": "Date text",
+			"name": "gord_date_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 9
+		},
+		{
+			"label": "Date Background",
+			"name": "gord_date_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 9
+		},
+		
+		  
+		  
+		
+		  
+		  
+		{
+			"label": "Text",
+			"name": "gord_footer_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 10
+		},
+		{
+			"label": "Header Text",
+			"name": "gord_footer_header_text",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 10
+		},
+		{
+			"label": "Link",
+			"name": "gord_footer_link",
+			"type": 2,
+			"value": "FFFFFF",
+			"group": 10
+		},
+		{
+			"label": "Link Hover",
+			"name": "gord_footer_link_hover",
+			"type": 2,
+			"value": "2119FF",
+			"group": 10
+		},
+		{
+			"label": "Background",
+			"name": "gord_footer_bg",
+			"type": 2,
+			"value": "5e4630",
+			"group": 10
+		},
+		{
+			"label": "Copyright Background",
+			"name": "gord_footer_copyright_bg",
+			"type": 2,
+			"value": "333333",
+			"group": 10
+		}
+		  
+		
+	
+		
+		  
+      ]
+    }
+	 
+  ]
+}
