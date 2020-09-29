@@ -822,7 +822,7 @@ ul.extrapages li a:hover{
     margin: 0;
 }
 ul.payment-icons {
-    text-align: right;
+    text-align: center;
 }
 ul.payment-icons li {
     font-size: 34px;
