@@ -2652,6 +2652,7 @@ body.has-active-menu {
     text-align: left;
     height: 250px;
     z-index: 99;
+	color: #fff;
 }
 .hp-slider-text h3 {
     font-size: 45px;
@@ -2659,6 +2660,7 @@ body.has-active-menu {
     font-weight: 600;
     text-transform: uppercase;
     line-height: 1.15;
+	color: #fff;
 }
 .hp-slider-text h3 > span {
     color: #333;
